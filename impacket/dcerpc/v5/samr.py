@@ -1012,7 +1012,7 @@ class PSAMPR_ENCRYPTED_USER_PASSWORD(NDRPOINTER):
 # 2.2.7.22 SAMPR_ENCRYPTED_USER_PASSWORD_NEW
 class SAMPR_ENCRYPTED_USER_PASSWORD_NEW(NDRSTRUCT):
     structure = (
-        ('Buffer', '522s=""'),
+        ('Buffer', '532s=""'),
     )
     def getAlignment(self):
         return 1
